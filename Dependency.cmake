@@ -1,7 +1,7 @@
 include(FetchContent)
 
-add_subdirectory(glad)
-add_subdirectory(imgui)
+add_subdirectory(third_party/glad)
+add_subdirectory(third_party/imgui)
 
 FetchContent_Declare(
     spdlog
