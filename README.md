@@ -29,7 +29,7 @@ cmake --build build
 ## Build target
 
 ```shell
-cmake --build build --target <BUILD_TARGET>
+cmake --build build --target <TARGET_NAME>
 ```
 
 ## Executable path
@@ -37,11 +37,11 @@ cmake --build build --target <BUILD_TARGET>
 ### GNU
 
 ```shell
-build/bin/<BUILD_TARGET>
+build/bin/<TARGET_NAME>
 ```
 
 ### MSVC
 
 ```shell
-build/bin/<BUILD_TYPE>/<BUILD_TARGET>
+build/bin/<BUILD_TYPE>/<TARGET_NAME>
 ```
